@@ -1,15 +1,13 @@
 import './App.css';
 
-import SignIn from './components/SignIn';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="w-screen h-screen bg-cyan-300">
-      <SignIn />
+      <Landing />
     {/* 
-      <Header />
-      <Table />
-      Footer / 
+      Name: Blown Out, logo of a wave
     */}
     </div>
   );
